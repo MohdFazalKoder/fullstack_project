@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import "bulma/css/bulma.min.css";
-import HomeBg from "../assets/CloudImage.png"; // Tumhari background image
+import HomeBg from "../assets/CloudImage.png";
 
 const Login = ({ setToken }) => {
   const [email, setEmail] = useState("");
@@ -23,7 +23,6 @@ const Login = ({ setToken }) => {
       const result = await res.json();
 
       if (res.ok) {
-        // Login success
         localStorage.setItem("token", result.token); // Token save
         setToken(result.token); // App.js state update
         Swal.fire("Success!", result.message, "success").then(() => {
