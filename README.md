@@ -1,19 +1,15 @@
 Fullstack Project
 
 This is a Full Stack Web Application name (CloudNova) built using React (Frontend), Node.js + Express (Backend), and MySQL (Database).
-It allows users to Sign Up, Log In, Upload, View, Delete, and Download files securely.
+It allows users to Sign Up, Log In, Upload, View, play and Delete, files securely.
 
 🚀 Features
 
-User Signup and Login (Authentication)
-
-File Upload with Validation (No Duplicate Files Allowed)
-
-View and Delete Uploaded Files
-
-JWT-based Secure Routes
-
-MySQL Database Integration
+1. User Signup and Login (Authentication)
+2. File Upload with Validation (No Duplicate Files Allowed)
+3. View and Delete Uploaded Files
+4. JWT-based Secure Routes
+5. MySQL Database Integration
 
 Responsive Frontend using React and Bulma CSS
 
@@ -35,7 +31,6 @@ fullstack_project/
 │   └── package.json
 │
 ├── README.md
-└── .gitignore
 
 ⚙️ Installation
 1️⃣ Clone the Repository
